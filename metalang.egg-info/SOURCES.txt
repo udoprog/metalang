@@ -1,0 +1,17 @@
+setup.cfg
+setup.py
+metalang/__init__.py
+metalang/generators.py
+metalang/grammar.py
+metalang/grammartypes.py
+metalang/plugins.py
+metalang/support.py
+metalang.egg-info/PKG-INFO
+metalang.egg-info/SOURCES.txt
+metalang.egg-info/dependency_links.txt
+metalang.egg-info/entry_points.txt
+metalang.egg-info/not-zip-safe
+metalang.egg-info/requires.txt
+metalang.egg-info/top_level.txt
+out/__init__.py
+out/slask.py

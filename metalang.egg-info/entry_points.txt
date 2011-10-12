@@ -1,0 +1,5 @@
+[console_scripts]
+
+          metalang = metalang:entrypoint
+        
+

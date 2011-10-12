@@ -1,0 +1,5 @@
+.*.swp
+.*.un~
+*.pyc
+build
+dist

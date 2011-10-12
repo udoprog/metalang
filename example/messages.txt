@@ -1,0 +1,11 @@
+package slask
+  message test3
+    bool playlist1
+    list list
+    object hello
+  end
+
+  message item
+    string name
+  end
+end
