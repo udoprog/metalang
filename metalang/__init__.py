@@ -20,14 +20,17 @@ modes = {
 def exit_usage():
   import sys
 
-  print "Usage: codegen -M <mode> <messages>"
+  print "Usage: metalang -M <mode> <message-file>"
   print "Options:"
-  print "  -d <output> : Directory to save generated output in."
   print "  -M <mode>   : Generate code for the specified <mode>."
+  print "  -d <output> : Directory to save generated output in."
   print "  -p <plugin> : Enable plugin named <plugin>."
-  print "  Available modes:"
+  print "Available modes:"
   for m in modes:
-    print "    " + m
+    print "  " + m
+  print "Available plugins:"
+  for p in plugins:
+    print "  " + p
 
   sys.exit(1)
 
