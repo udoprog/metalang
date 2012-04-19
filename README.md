@@ -37,17 +37,17 @@ Message Files
 =============
 Example File:
 
-  package foobar
-    message foo
-      bool ok
-      list list
-      object someobject
-    end
+    package foobar
+      message foo
+        bool ok
+        list list
+        object someobject
+      end
 
-    message bar
-      string name
+      message bar
+        string name
+      end
     end
-  end
 
 The message definitions follow a simplistic grammar (defined in
 metalang/grammar.py) using pyparsing.
